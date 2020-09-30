@@ -1,0 +1,79 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 50px 0;
+}
+.checkout-form{
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 0;
+}
+.checkout-input{
+  display: flex;
+  max-width: 600px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: auto;
+  margin: auto;
+}
+.checkout-form h1{
+  text-align: center;
+}
+.cardLogoContainer{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.cardLogo{
+  width: 100px;
+  height: 100px;
+}
+
+.card-info{
+  flex-basis: 180px;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.checkout-form button{
+  margin-left: 50px;
+  text-align: center;
+  border: 1px solid rgb(224, 63, 90);
+  padding: 3px 20px;
+  background-color: rgb(224, 63, 90);
+  color: white;
+  border-radius: 15px;
+  outline: none;
+}
+input{
+  outline: none;
+  border: none;
+}
+
+.error-msg{
+  color: red;
+  font-size: 10px;
+}
+.input-field{
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+ion-icon{
+  padding: 5px 4px 0px 4px;
+}
+.payment-info{
+  display: flex;
+}
+.payment-info p{
+  margin-top: 15px;
+}
+.payment-info img{
+  width: 50px;
+  height: 50px;
+}
